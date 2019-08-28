@@ -1,11 +1,9 @@
 import React from "react"
-import {Link} from "gatsby"
+import Layout from "../components/layout";
 const Contact = () =>{
     return(
-        <div>
-            <title>Contact Us</title>
-            <Link to ="/">Home</Link>
-            <h1>Mega Spin Ltd Contacts</h1>            
+        <Layout>
+            <title>Contact Us</title>           
             <p> Name: Mega Spin Ltd</p>
             <p>Location: Stanley Mathenge Road</p>
             <p> Address: P.O Box: 3204-20100</p>
@@ -13,7 +11,7 @@ const Contact = () =>{
             <p> Country: Kenya</p>
             <p> Telephone: +254512213602</p>
             <p> Mobile Number: +254772558672</p>
-        </div>
+        </Layout>
     )
 }
 export default Contact
