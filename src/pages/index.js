@@ -4,7 +4,7 @@ const IndexPage = () =>{
     return(
     <Layout>
         <title>Home</title>
-        <p>Mega Spin</p>
+        <p>MegaSpin</p>
     </Layout>
     )
 }
