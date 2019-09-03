@@ -10,7 +10,6 @@ const Contact = () =>{
             <p> City/Town: Nakuru</p>
             <p> Country: Kenya</p>
             <p> Telephone: +254512213602</p>
-            <p> Mobile Number: +254772558672</p>
         </Layout>
     )
 }

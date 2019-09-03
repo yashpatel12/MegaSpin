@@ -1,0 +1,17 @@
+{
+    "projectName": "hello-world",
+    "version": "2.0",
+    "frontend": "javascript",
+    "javascript": {
+        "framework": "react",
+        "config": {
+            "SourceDir": "c:\\Users\\yashp\\hello-world\\src",
+            "DistributionDir": "build",
+            "BuildCommand": "gatsby build",
+            "StartCommand": "gatsby develop"
+        }
+    },
+    "providers": [
+        "awscloudformation"
+    ]
+}

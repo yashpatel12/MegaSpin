@@ -13,7 +13,7 @@ const Footer = () =>{
     `)
 return(
     <footer>
-        <p>Created by <a className= {FooterStyle.contactlink} href="https://twitter.com/@Yash___Patel_"target="_blank">{data.site.siteMetadata.author}</a>, © 2019</p>
+        <p>Created by <a className= {FooterStyle.contactlink} href="https://twitter.com/@Yash___Patel_">{data.site.siteMetadata.author}</a>, © 2019</p>
     </footer>
 )
 }
