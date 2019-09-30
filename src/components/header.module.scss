@@ -1,24 +1,45 @@
 .link {
     color: #999999;
-    font-size: .9rem;
-    margin-right: 1.3rem;
+    margin-right: 4rem;
     text-decoration: none;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .header{
-    padding: 1rem 0 3rem;
+    margin: 0 auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    background-color: chartreuse;
+
 }
 .title{
     color: #000000;
     text-decoration: none;
+    position: relative;
 }
 .navigationlist{
     display: flex;
     list-style-type: none;
-    margin: 0;
+    align-items: flex-end;
 }
 .link:hover{
     color: #666666;
 }
 .activelink{
     color: #333333;
+}
+.nav{
+    position: relative;
+    background-color: chartreuse;
+
+}
+.navigationlists{
+    list-style-type: none;
 }

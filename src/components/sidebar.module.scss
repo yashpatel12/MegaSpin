@@ -1,21 +1,57 @@
 .nav{
+    /*position: relative;
+    left: 20px;
+    height: 26px;
+    position: fixed;*/
+    width: 13em;
+    height: auto;
+    margin: 4em auto 0;
+    font-weight: 1em;
+    line-height: 2em;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
     position: fixed;
-    left: 60px;
-    top: 115spx;
+    z-index: 10;
+    top: auto;
+    bottom: auto;
+    left: -10em;
 }
-
 .link {
-    color: #999999;
+   /* color: #999999;
     font-size: .9rem;
-    margin-right: 1.3rem;
+    text-decoration: none;
+    font-size: 25px;
+    transition: all 0.3s ease-in-out 0s;
+    background-repeat: no-repeat;
+    list-style-position: inside;*/
+    display: block;
+    background-color: #333;
+    opacity: .6;
+    padding: 1em 1.5em;
+    position: relative;
+    transition: transform .5s,background-color .5s, color .5s;
+    display: block;
+    color: #fff;
     text-decoration: none;
 }
 .navigationlist{
-    list-style-type: none;
+   /* margin: 0;
+    background-position: 0 center;
+    height: 26px;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: 40px;*/
+    list-style: none;
     margin: 0;
+    padding: 0;
+    border-color: #fff;
+
 }
 .link:hover{
-    color: #666666;
+    //color: #666666;
+    background-color: #339966;
+    transform: translateX(10em);
 }
 .activelink{
     color: #333333;

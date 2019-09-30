@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import SideBarStyle from "../components/sidebar.module.scss"
-
 const SideBar=()=>{
     return(
             <nav className={SideBarStyle.nav}>
@@ -12,7 +11,9 @@ const SideBar=()=>{
                     <li> <Link className={SideBarStyle.link} activeClassName={SideBarStyle.activelink} to ="/sierra">Sierra FLora</Link> </li>
                     <li> <Link className={SideBarStyle.link} activeClassName={SideBarStyle.activelink} to ="/roseto">Roseto</Link> </li>
                 </ul>
-            </nav>        
+            </nav>
+
+            
     )
 }
 export default SideBar

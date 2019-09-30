@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: "MegaSpin Group",
-    subtitle1:"MegaPack",
-    subtitle2:"MegaPaper",
-    subtitle3:"Florenza",
-    subtitle4:"Sierra Flora",
-    subtitle5:"Roseto",
+    MegaPack:"MegaPack",
+    MegaPaper:"MegaPaper",
+    Florenza:"Florenza",
+    SierraFlora:"Sierra Flora",
+    Roseto:"Roseto",
     author: "Yash Patel"
   },
   plugins: [
@@ -17,6 +17,14 @@ module.exports = {
         path:`${__dirname}/src/`
       }
     },
-    'gatsby-transformer-remark'
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/posts`,
+      },
+    }
   ]
 }

@@ -2,31 +2,47 @@ import React from "react"
 import Layout from "../components/layout";
 import Florenzaicon from "../icons/florenza.jpg"
 import {Link, graphql, useStaticQuery} from "gatsby"
+import SlideShow from '../components/slideshow.js'
 import Headerstyle from "../components/header.module.scss"
 const Florenza = () =>{
     const data = useStaticQuery(graphql`
     query{
-        allMarkdownRemark{
+        site{
+          siteMetadata{
+            Florenza
+          }
+        }      
+        allMarkdownRemark (filter: {frontmatter: {tag: {eq: "Florenza"}}}) {
           edges{
             node{
-              frontmatter{
-                title
+              fields{
+                slug
               }
+              frontmatter{
+                title 
+              }
+              html
             }
           }
         }
       }`)
-    
-      console.log(data)
-        
       return(
     <Layout>
-        <h2><Link className={Headerstyle.title} to='./florenza'><img src={Florenzaicon} alt="florenza" width="42" height="44" align="left"/>Florenza </Link></h2>
-        <ol>
+        <h2>
+          <Link className={Headerstyle.title} to='./florenza'><img src={Florenzaicon} alt="florenza" width="40" height="40" align={"left" && "top"}/>
+          {data.site.siteMetadata.Florenza}
+          </Link>
+        </h2>
+        <SlideShow /> 
+
+        <ol className={Headerstyle.navigationlists}>
             {data.allMarkdownRemark.edges.map((edge)=>{
                 return(
                     <li>
-                        <h2>{edge.node.frontmatter.title}</h2>
+                      <Link to={`/florenza/${edge.node.fields.slug}`}>
+                        <h3> {edge.node.frontmatter.title}</h3>       
+                      </Link>                 
+                        <div dangerouslySetInnerHTML={{__html: edge.node.html}}></div>
                     </li>
                 )
             })}

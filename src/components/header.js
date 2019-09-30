@@ -15,11 +15,11 @@ const Header= () =>{
 return(
     <header className={HeaderStyle.header}>
         <h1>
-            <Link className={HeaderStyle.title} activeClassName={HeaderStyle.megaimg} to ="/">
+            <Link className={HeaderStyle.title} to ="/">
             {data.site.siteMetadata.title}
             </Link>
         </h1>
-        <nav>
+        <nav className={HeaderStyle.nav}>
             <ul className={HeaderStyle.navigationlist}>
                 <li>
                     <Link className={HeaderStyle.link} activeClassName={HeaderStyle.activelink} to="/">Home</Link>

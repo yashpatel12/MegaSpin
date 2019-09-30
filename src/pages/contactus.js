@@ -4,12 +4,13 @@ const Contact = () =>{
     return(
         <Layout>
             <title>Contact Us</title>           
-            <p> Name: Mega Spin Ltd</p>
-            <p>Location: Stanley Mathenge Road</p>
-            <p> Address: P.O Box: 3204-20100</p>
-            <p> City/Town: Nakuru</p>
-            <p> Country: Kenya</p>
-            <p> Telephone: +254512213602</p>
+            <p> Name: MegaSpin Ltd<br />
+                Location: Stanley Mathenge Road<br />
+                Address: P.O Box: 3204-20100<br />
+                City/Town: Nakuru<br />
+                Country: Kenya<br />
+                Telephone: +254512213602
+            </p>
         </Layout>
     )
 }
