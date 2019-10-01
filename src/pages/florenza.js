@@ -28,12 +28,12 @@ const Florenza = () =>{
       }`)
       return(
     <Layout>
+        <SlideShow /> 
         <h2>
           <Link className={Headerstyle.title} to='./florenza'><img src={Florenzaicon} alt="florenza" width="40" height="40" align={"left" && "top"}/>
           {data.site.siteMetadata.Florenza}
           </Link>
         </h2>
-        <SlideShow /> 
 
         <ol className={Headerstyle.navigationlists}>
             {data.allMarkdownRemark.edges.map((edge)=>{
