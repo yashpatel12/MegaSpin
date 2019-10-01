@@ -11,10 +11,10 @@ const SlideShow =()=>{
             <input type="radio" id="carousel-5" name="carousel[]"/>
             <ul class="carousel__items">
                 <li class="carousel__item"><img src="https://megaspin.s3.eu-west-3.amazonaws.com/IMG_20190911_114105_8.jpg" alt=""/></li>
-                <li class="carousel__item"><img src="https://megaspin.s3.eu-west-3.amazonaws.com/IMG_20190911_132506_6.jpg" alt=""/></li>
-                <li class="carousel__item"><img src="https://megaspin.s3.eu-west-3.amazonaws.com/IMG_20190911_132501_0.jpg" alt=""/></li>
-                <li class="carousel__item"><img src="https://megaspin.s3.eu-west-3.amazonaws.com/IMG_20190911_144029_1.jpg" alt=""/></li>
-                <li class="carousel__item"><img src="https://megaspin.s3.eu-west-3.amazonaws.com/IMG_20190911_114053_1.jpg" alt=""/></li>
+                <li class="carousel__item"><img src="https://megaspin.s3.eu-west-3.amazonaws.com/megaupdated/florenza/slider/slide1.jfif" alt=""/></li>
+                <li class="carousel__item"><img src="https://megaspin.s3.eu-west-3.amazonaws.com/megaupdated/florenza/slider/slide2.jfif" alt=""/></li>
+                <li class="carousel__item"><img src="https://megaspin.s3.eu-west-3.amazonaws.com/megaupdated/florenza/slider/slide3.jfif" alt=""/></li>
+                <li class="carousel__item"><img src="https://megaspin.s3.eu-west-3.amazonaws.com/megaupdated/florenza/slider/slide4.jpg" alt=""/></li>
             </ul>
          <div class="carousel__prev">
              <label for="carousel-1"></label>
