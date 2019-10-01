@@ -14,7 +14,7 @@ const SlideShow =()=>{
                 <li class="carousel__item"><img src="https://megaspin.s3.eu-west-3.amazonaws.com/megaupdated/florenza/slider/slide1.jfif" alt=""/></li>
                 <li class="carousel__item"><img src="https://megaspin.s3.eu-west-3.amazonaws.com/megaupdated/florenza/slider/slide2.jfif" alt=""/></li>
                 <li class="carousel__item"><img src="https://megaspin.s3.eu-west-3.amazonaws.com/megaupdated/florenza/slider/slide3.jfif" alt=""/></li>
-                <li class="carousel__item"><img src="https://megaspin.s3.eu-west-3.amazonaws.com/megaupdated/florenza/slider/slide4.jfif" alt=""/></li>
+                <li class="carousel__item"><img src="https://megaspin.s3.eu-west-3.amazonaws.com/megaupdated/florenza/slider/slide4.jpg" alt=""/></li>
             </ul>
          <div class="carousel__prev">
              <label for="carousel-1"></label>
