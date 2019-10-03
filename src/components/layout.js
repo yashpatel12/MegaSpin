@@ -7,6 +7,7 @@ const Layout = (props) =>{
     return(
         <div className={LayoutStyles.container}>
         <div className={LayoutStyles.content}>
+        <title> Megaspin Group </title>
             <Header />
             <SideBar />
             {props.children}          
